@@ -1,0 +1,66 @@
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid white;
+  margin: 20px;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: 1px;;
+  
+  &:before,&:after{
+    transition: all .3s;
+  }
+
+  &:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: black;
+    border: 3px solid white;
+    transform: rotate(45deg);
+    cursor: pointer;
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: -12px;
+    left: -13px;
+  }
+  &:after{
+     content: '';
+    width: 20px;
+    height: 20px;
+    background: black;
+    border: 3px solid white;
+    transform: rotate(-132deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -13px;
+    bottom: -12px;
+  }
+  
+  &:hover{
+    &:before{
+         transform: rotate(0deg);
+    top: 0;
+    left: -23px;
+      opacity: 0;
+    }
+    &:after{
+      // opacity: 0;
+    transform: rotate(-90deg);
+    right: -3px;
+    bottom: -21px;
+    opacity: 0;
+      
+    }
+  }
+}
+
+
+

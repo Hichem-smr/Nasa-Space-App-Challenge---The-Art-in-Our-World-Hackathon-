@@ -1,0 +1,34 @@
+.contact_contain
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.contact_us
+{
+    font-size: 1.9rem;
+    color: white;
+    font-family:'Orbitron', sans-serif; ;
+}
+.input_contact >input
+{
+    position: relative;
+    margin-top: 30px;
+    top:50%;
+    padding: 20px;
+    width: 450px;
+    border-radius: 25px;
+    border: 3px solid yellow;
+    background-color: rgba(231, 231, 231, 0.185);
+    color: white;
+    outline: none;
+}
+.contact
+{
+    margin-top: 20%;
+}
+
+

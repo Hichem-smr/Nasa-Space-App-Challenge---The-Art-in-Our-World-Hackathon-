@@ -1,0 +1,59 @@
+.RulesContainer
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.rules
+{
+    width:100%;
+    gap:100px;
+    display: flex;
+    color:white;
+    flex-direction: row;
+}
+
+.rules > img
+{
+    margin-left: 150px;
+}
+.astronaut
+{
+    width: 100%;
+}
+.rules_Objectives 
+{
+   display: flex;
+    padding-top: 100px;
+    margin-left: 70px;
+    flex-direction: column;
+    font-size: 2.1rem;
+}
+.rules_Objectives > h1
+{
+    color: #FAFF05;
+    font-size:3rem;
+    text-align: left;
+    
+}
+.icon_container > li
+{
+    padding: 10px;
+}
+.icon_container 
+{
+    padding-top: 60px;
+    text-decoration:none;
+    text-align: left;
+    list-style: none;
+    
+}
+.fa-angle-double-right
+{
+    color: #FAFF05;
+   
+}

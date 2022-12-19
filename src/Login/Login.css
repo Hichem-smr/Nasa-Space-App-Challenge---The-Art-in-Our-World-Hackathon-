@@ -1,0 +1,48 @@
+#landing{
+ 
+    min-height: 100vh;
+}
+
+.title 
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+#rocket
+{
+    width: 100%;
+    position: fixed;
+    bottom: -300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#rocket > img 
+{
+    width:200px;
+}
+
+#rest_of_page
+{
+    width:100vw;
+    height:200vh;
+    background-color: red;
+}
+
+#welcome
+{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

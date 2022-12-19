@@ -1,0 +1,8 @@
+#transition 
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/materials/2mup.gif);
+    background-size: cover;
+    background-position: center;
+}
